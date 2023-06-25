@@ -40,7 +40,7 @@ const handleStartOfTimer = () => {
         const currentTime = Date.now();
         const timeDifference = neededDate - currentTime;
 
-        if (currentTime <= 0) {
+        if (timeDifference <= 0) {
             clearInterval(countingInterval);
             updateTimerDisplay({ days: 0, hours: 0, minutes: 0, seconds: 0 });
             return;
