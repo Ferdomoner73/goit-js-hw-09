@@ -16,3 +16,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button {
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 12px 29px;
+  color: #ffffff;
+  background-color: #7accee;
+  border-radius: 5px;
+  border: 3px solid #7accee;
+}
+
+.button[disabled] {
+  background-color: grey;
+}
